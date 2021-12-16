@@ -1,0 +1,51 @@
+@charset "EUC-KR";
+
+#container{
+	width: 400px;
+	height: 500px;
+	padding: 50px 20px 50px 20px;
+	background-color: ffdfdf;
+}
+#top{
+	text-align: center;
+}
+#heart{
+	color: red;
+	vertical-align: 130%
+}
+#startDay{
+	color: gray;
+}
+.days{
+	display: inline-block;
+	width: 120px;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-left: 10px;
+	text-align: center;
+}
+.days2{
+	display: inline-block;
+	width: 120px;
+	padding-left: 80px;
+	text-align: center;
+}
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+li{
+	height: 40px;
+	margin: 10px;
+	padding: 20px;
+	background-color: #f0b4b4;
+	border-radius: 7px;
+}
+img{
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+}
+h3{
+	margin: 4px;
+}

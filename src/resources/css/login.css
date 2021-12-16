@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin:0;
+    background-color: rgb(204, 252, 255);
+    font-weight: 300;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*.header {
+    background-color: #fff;
+    height: 60px;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgray;
+}*/
+.loginForm {
+	position: absolute;
+	width: 400px;
+	height: 600px;
+	padding: 30px, 20px;
+	background-color: #FFFFFF;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+}
+
+.loginForm h2 {
+	text-align: center;
+	margin: 30px;
+}
+
+.idForm {
+	border-bottom: 2px solid #adadad;
+	margin: 30px;
+	padding: 10px 10px;
+}
+
+.passForm {
+	border-bottom: 2px solid #adadad;
+	margin: 30px;
+	padding: 10px 10px;
+}
+
+.id {
+	width: 100%;
+	border: none;
+	outline: none;
+	color: #636e72;
+	font-size: 16px;
+	height: 25px;
+	background: none;
+}
+
+.pw {
+	width: 100%;
+	border: none;
+	outline: none;
+	color: #636e72;
+	font-size: 16px;
+	height: 25px;
+	background: none;
+}
+.section {
+    position: relative;
+    height: calc(100vh - 60px);
+    position: relative;
+}
+.login {
+    /* border: 1px solid red; */
+    width: 360px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login-main h1 {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: normal;
+}
+.butn {
+	border: 1px solid lightgray;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    color: white;
+    font-size: 18px;
+    opacity: 0.9;
+    background: #379ce0
+}
+.btn {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 18px;
+    opacity: 0.9;
+}
+.btn:hover {
+    opacity: 1;
+}
+
+.btn:nth-of-type(1) {
+    background: #e03737 no-repeat center left 15px;
+}
+.btn:nth-of-type(2) {
+    background: #3ed530 no-repeat center left 15px;
+}
+.or-text {
+    display: block;
+    text-align: center;
+    /* margin-bottom: 7px; */
+    font-size: 15px;
+    margin: 10px 0;
+    position: relative;
+}
+.or-text::before,
+.or-text::after {
+     content: "";
+    position: absolute;
+    height: 1px;
+    background-color: lightgray;
+    width: 44%;
+    top: 10px;
+}
+.or-text::before {
+    left: 0;
+}
+.or-text::after {
+    right: 0;
+}
+.login-footer {
+    font-size: 15px;
+}
+.login-footer p {
+    text-align: center
+}
+.login-footer p a {
+    font-weight: normal;
+}
+.login-footer p a:hover {
+    text-decoration: underline;
+}

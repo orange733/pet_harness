@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin:0;
+    background-color: rgb(204, 252, 255);
+    font-weight: 300;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.loginForm {
+	position: absolute;
+	width: 400px;
+	height: 600px;
+	padding: 30px, 20px;
+	background-color: #FFFFFF;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+}
+
+.loginForm h2 {
+	text-align: center;
+	margin: 30px;
+}
